@@ -1,0 +1,14 @@
+.resetimg {
+  padding: 25px;
+  width: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: white;
+}
+/*# sourceMappingURL=resetpassone.css.map */

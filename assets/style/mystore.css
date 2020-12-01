@@ -1,0 +1,50 @@
+.store-container .inner-sale {
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  padding: 30px 0px 0px 50px;
+}
+
+.store-container .inner-sale button {
+  background-color: #707070;
+  font-weight: 600;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 60px;
+  color: #ffffff;
+  border: none;
+}
+
+.store-container .inner-sale .deals {
+  padding: 20px 50px;
+  background-color: #c9c9c9;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.store-container .inner-sale p {
+  margin-bottom: 0px;
+}
+
+.store-container .category {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.store-container .category .col-5 {
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.store-container .category img {
+  width: 140px;
+  height: 140px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.store-container .category .image-txt {
+  padding: 20px;
+}
+/*# sourceMappingURL=mystore.css.map */

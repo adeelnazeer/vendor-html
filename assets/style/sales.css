@@ -1,0 +1,46 @@
+.sale-container .inner-sale {
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  padding: 40px 0px 0px 50px;
+}
+
+.sale-container .inner-sale .column-one .one {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-right: 15px;
+}
+
+.sale-container .inner-sale .column-one .two {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-right: 15px;
+}
+
+.sale-container .inner-sale .column-one .three {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.sale-container .inner-sale .column-one .col-2 {
+  padding: 0px;
+}
+
+.sale-container .inner-sale .column-one .col-5 {
+  padding: 0px;
+}
+
+.sale-container .inner-sale .hr- {
+  margin-right: 50px;
+}
+
+.sale-container .inner-sale .table-main {
+  padding: 0px;
+}
+
+.sale-container p {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=sales.css.map */

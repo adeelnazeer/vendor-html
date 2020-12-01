@@ -1,0 +1,92 @@
+.Feedback-container .inner-order {
+  background-color: #ffffff;
+  border-top-left-radius: 50px;
+  padding: 30px 50px 0px 50px;
+}
+
+.Feedback-container .inner-order .row-one input {
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+}
+
+.Feedback-container .inner-order .contact-btn button {
+  background-color: #707070;
+  font-weight: 600;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 80px;
+  color: #ffffff;
+  border: none;
+}
+
+.Feedback-container .radio-btn {
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.Feedback-container .radio-btn .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Feedback-container .radio-btn .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.Feedback-container .radio-btn .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 3px solid darkgray;
+  /* background-color: #eee; */
+  border-radius: 50%;
+}
+
+.Feedback-container .radio-btn .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.Feedback-container .radio-btn .container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.Feedback-container .radio-btn .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.Feedback-container .radio-btn .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.Feedback-container .radio-btn .container .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+/*# sourceMappingURL=feedback.css.map */

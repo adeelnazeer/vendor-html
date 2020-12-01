@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../assets/style/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid container-backkground">
+        <!--Header-->
+        <div class="container-fluid bg-color-gray">
+            <nav class="navbar navbar-light bg-lighttwo txt-clr">
+              <span class="navbar-brand">
+                <img class="logo" src="../assets/images/black.png" alt="" />
+              </span>
+      
+              <form class="form-inline">
+                <!-- {/* <img class="icon-height mrg-right-30" src={Search} alt="" /> */} -->
+                <Link to="/new-product">
+                  <img
+                    class="plus-icon mrg-right-10 cursor-pointer"
+                    src="../assets/images/plus.png"
+                    alt=""
+                  />
+                </Link>
+                <Link to="/new-product">
+                  <h6 class="txt-clr mrg-right-70 cursor-pointer">
+                    ADD NEW PRODUCT
+                  </h6>
+                </Link>
+                <img
+                  class="icon-height mrg-right-50 cursor-pointer"
+                  src="../assets/images/icons/Notifications.png"
+                  alt="" />
+      
+                <img
+                  class="profile-height mrg-right-5 "
+                  src="../assets/images/Profile_pic_1.png"
+                  alt=""
+                />
+                <div class="mrg-right-50">
+                  <span class="fnt-w-700 cursor-pointer">
+                    <Link to="/profile">
+                      <h5>Craig Riley</h5>
+                    </Link>
+                  </span>
+      
+                  <!-- {/* <div class="fnt-w-500">
+                    <p href="#" class="a-tag">
+                      $34.00 USD
+                    </p>
+                  </div> */} -->
+                </div>
+                <img
+                  class="cursor-pointer"
+                  src="../assets/images/icons/Dot_menu.png"
+                  alt=""
+                />
+              </form>
+            </nav>
+            
+              <!-- <div class="model">
+                <div>
+                  <Link to="/message">
+                    <h6>Message</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/message">
+                    <h6>Change Password</h6>
+                  </Link>
+                  <hr></hr>
+                  <Link to="/message">
+                    <h6>Log Out</h6>
+                  </Link>
+                </div>
+              </div> -->
+            
+          
+              <!-- <div class="model-2">
+                <div>
+                  <h6 class="txt-clr">Notifications</h6>
+                  <p class="fnt-s-14 mrg-top-20">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation
+                  </p>
+                  <p class="p-view fnt-s-14">VIEW</p>
+                </div>
+              </div> -->
+            
+          </div>
+        <!--Header END-->
+
+         <div class="row">
+            <div class="col-3 pd-right-0">
+                <!--SIDE NAV-->
+                <div class="bg-color-gray container-side-nav ">
+                    <div class="col-10 txt-clr">
+                      <Link to="/store">
+                        <h5 class="">My Store</h5>
+                      </Link>
+                      <Link to="/myorder">
+                        <h5 class="">
+                          Order List
+                        </h5>
+                      </Link>
+                      <Link to="/sales">
+                        <h5 class="">Sales</h5>
+                      </Link>
+                      <Link to="/finance">
+                        <h5 class="">
+                          Finance Report
+                        </h5>
+                      </Link>
+                      <Link to="/transaction">
+                        <h5 class="">
+                          Transaction
+                        </h5>
+                      </Link>
+                      <Link to="/all-product">
+                        <h5 class="">
+                          All Products
+                        </h5>
+                      </Link>
+                      <Link to="/contact">
+                        <h5 class="">
+                          Contact Zurvos
+                        </h5>
+                      </Link>
+                      <Link to="/feedback">
+                        <h5 class="">
+                          Give Feedback
+                        </h5>
+                      </Link>
+                      <Link to="/vendor-policy">
+                        <h5 class="">
+                          Vendor Policy
+                        </h5>
+                      </Link>
+                    </div>
+                  </div>
+                <!--SIDE NAV-->
+            </div>
+            <div class="col-9 pd-left-0 ">
+          <!--MY STORE-->
+          <div class="store-container bg-color-gray">
+            <div class="inner-sale">
+              <div class="d-flex jst-cont-between alg-itm-end pd-right-50 ">
+                <div>
+                  <h4 class="fnt-w-700 txt-clr">Your Banner deal</h4>
+                </div>
+                <div>
+                  <button class="txt-clr fnt-w-600">ADD NEW DEAL</button>
+                </div>
+              </div>
+              <div class="d-flex jst-cont-between alg-itm-center deals mrg-top-30">
+                <div>
+                  <h4 class="fnt-w-600 txt-clr">Subscribe Today for Free</h4>
+                  <h4 class="fnt-w-600 txt-clr">Shipping & Traning</h4>
+                </div>
+                <div>
+                  <h4 class="fnt-s-72 txt-clr fnt-w-700">$50.00</h4>
+                  <p class="fnt-w-600 txt-clr">GET FREE SHIPPING</p>
+                </div>
+              </div>
+              <div class="txt-align-cntr mrg-top-20">
+                <h4 class="fnt-w-700 txt-clr">My Products</h4>
+              </div>
+              <h6 class="fnt-w-600 mrg-top-40 txt-clr">CATEGORY</h6>
+              <h5 class="txt-clr">Weight Loose</h5>
+              <div class="mrg-top-20 d-flex category alg-itm-center">
+                <div class="col-5 d-flex alg-itm-center">
+                  <div>
+                    <img src="../assets/images/test.jpg" alt="" />
+                  </div>
+                  <div class="image-txt">
+                    <h6 class="txt-clr">4-Tube Foot Pedal Residence</h6>
+                    <p class="fnt-w-600 fnt-s-14">Price:$14.95</p>
+                    <p class=" fnt-s-14">
+                      Total number sell:<span class="fnt-s-14 fnt-w-600">14</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-5 d-flex alg-itm-center">
+                  <div>
+                    <img src="../assets/images/test.jpg" alt="" />
+                  </div>
+                  <div class="image-txt">
+                    <h6 class="txt-clr">4-Tube Foot Pedal Residence</h6>
+                    <p class="fnt-w-600 fnt-s-14">Price:$14.95</p>
+                    <p class=" fnt-s-14">
+                      Total number sell:<span class="fnt-s-14 fnt-w-600">14</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--MY STORE END-->
+            </div>
+        </div> 
+    </div>
+</body>
+
+</html>

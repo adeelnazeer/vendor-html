@@ -1,0 +1,64 @@
+.plus-icon {
+  height: 15px;
+  opacity: 50%;
+}
+
+.navbar h6 {
+  margin-bottom: 0px;
+}
+
+.model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.model div {
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 500;
+  margin-right: 40px;
+  width: 160px;
+  margin-top: -25px;
+  padding: 15px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  border-radius: 5px;
+}
+
+.model div h6 {
+  color: grey;
+  font-size: 12px;
+}
+
+.model-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.model-2 div {
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 500;
+  margin-right: 18%;
+  width: 270px;
+  margin-top: -25px;
+  padding: 15px;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+  border-radius: 5px;
+}
+
+.model-2 .p-view {
+  float: right;
+}
+/*# sourceMappingURL=header.css.map */

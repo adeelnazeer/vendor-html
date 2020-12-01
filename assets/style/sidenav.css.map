@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,OAAO,EAAE,gBAAgB;EACzB,MAAM,EAAE,IAAI;CAUb;;AAZH,AAGI,mBAHe,CAGf,EAAE,CAAC;EACD,OAAO,EAAE,kBAAkB;EAC3B,WAAW,EAAE,GAAG;CACjB;;AANL,AAOI,mBAPe,CAOf,eAAe,CAAC;EACd,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "sidenav.scss"
+    ],
+    "names": [],
+    "file": "sidenav.css"
+}
